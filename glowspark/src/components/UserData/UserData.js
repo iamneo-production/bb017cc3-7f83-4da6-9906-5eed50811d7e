@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { connect } from "react-redux";
 import * as actions from "../../store/actions";
-import Form from "../../components/Form/Form";
-import Spinner from "../../components/Spinner/Spinner";
+import Form from "../Form/Form";
+import Spinner from "../Spinner/Spinner";
 import { Button } from "antd";
 
 class UserData extends React.Component {
