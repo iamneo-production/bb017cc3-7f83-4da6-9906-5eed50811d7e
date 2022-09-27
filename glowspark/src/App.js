@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import firstPage from ''
+import { BrowserRouter as Router, Switch, Route,Routes } from "react-router-dom"
+import firstPage from './firstpage';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <Routes>
+            <Route exact path="/" element={<firstPage/>}/>
+      </Routes>
+    </Router>
   );
 }
 
