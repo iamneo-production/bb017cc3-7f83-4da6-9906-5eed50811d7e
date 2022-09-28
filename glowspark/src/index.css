@@ -1,13 +1,13 @@
-@import "~antd/dist/antd.css";
+/* @import "~antd/dist/antd.css";/ */
 
-body {
-<<<<<<< HEAD
+body{
   margin:0;
   padding:0;
   box-sizing: border-box;
   font-family:'Poppins',sans-serif;
   background: yellow;
-=======
+}
+/* =======
   background-color: #ffd1d1;
 }
 
@@ -265,4 +265,4 @@ h2 {
 	to {
 		opacity: 0;
 	}
-}
+} */

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
 .App{
   display: flex;
   align-items: center;
@@ -26,10 +26,10 @@
 }
 .wrapper .content .c1{
   margin-top: 10px;
-=======
-@import '~antd/dist/antd.css';
-.App {
->>>>>>> dd4c796ad0a7dffda579c884eb763113d581d2f8
+/* ======= */
+/* @import '~antd/dist/antd.css'; */
+/* .App { */
+/* >>>>>>> dd4c796ad0a7dffda579c884eb763113d581d2f8 */
   text-align: center;
 }
 .wrapper .content .c1 span{
@@ -82,7 +82,7 @@
 }
 .status.active{
   display: block;
-}
+} 
 .wrapper.hide{
   display: none;
 }
